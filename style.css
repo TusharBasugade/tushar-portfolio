@@ -596,3 +596,35 @@ h3 {
     width: 450px;
   }
 }
+@media screen and (max-width: 480px) {
+  /* Mobile-specific styles here */
+  .home {
+    padding: 2rem 0 1rem;
+  }
+  .home__img {
+    width: 150px;
+    bottom: 15%;
+  }
+  .about__container {
+    grid-template-columns: 1fr;
+  }
+  .skills__container {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+  }
+  .work__container {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+  }
+  .contact__form {
+    width: 100%;
+    padding-top: 1rem;
+  }
+  .contact__container {
+    justify-items: center;
+    padding: 1rem;
+  }
+  .footer {
+    padding: 1rem 0;
+  }
+}
